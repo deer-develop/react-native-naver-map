@@ -12,7 +12,7 @@
     "lint": "eslint .",
     "build:examplets": "tsc -p ./tsconfig.json --outDir ./example/map/",
     "build": "tsc -p ./tsconfig.json",
-    "deploy": "git switch deploy && rm index.tsx && git push"
+    "deploy": "git switch deploy && git merge master && rm index.tsx && git push"
   },
   "repository": {
     "type": "git",
