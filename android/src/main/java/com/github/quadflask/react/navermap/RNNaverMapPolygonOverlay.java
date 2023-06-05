@@ -34,7 +34,7 @@ public class RNNaverMapPolygonOverlay extends ClickableRNNaverMapFeature<Polygon
 
     @Override
     public boolean onClick(@NonNull Overlay overlay) {
-        emitEvent("onClick", null);
-        return true;
+        super.onClick(overlay);
+        return false;
     }
 }
