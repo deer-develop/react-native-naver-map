@@ -2,6 +2,7 @@ package com.github.quadflask.react.navermap;
 
 import android.content.Context;
 import com.naver.maps.geometry.LatLng;
+import com.naver.maps.map.overlay.Overlay;
 import com.naver.maps.map.overlay.PolygonOverlay;
 
 import java.util.List;
