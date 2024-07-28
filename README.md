@@ -34,8 +34,6 @@ $ cd ios/ && pod install
 
 `/android/build.gradle` 파일에 아래와 같이 레포지터리를 추가합니다
 
-> ⚠️ Bintray 지원 중단에 의해 jfrog로 수정되었습니다
-
 ```
 allprojects {
     repositories {
@@ -43,7 +41,7 @@ allprojects {
         jcenter()
         // 네이버 지도 저장소
         maven {
-            url 'https://naver.jfrog.io/artifactory/maven/'
+            url 'https://repository.map.naver.com/archive/maven'
         }
     }
 }
